@@ -1,0 +1,86 @@
+:root {
+    --body-background: #12232E;
+    --content-highlight-primary: #007CC7;
+    --white: #eefbfb;
+  }
+  
+  .blog-post-detail-card {
+      padding-top: 30px;
+  }
+  
+  .blog-post-card-cover {
+      border: 6px solid var(--content-highlight-primary);
+      border-radius: 10px;
+  }
+  
+  .dark .blog-post-card-cover {
+      border: 6px solid var(--content-highlight-primary);
+      border-radius: 10px;
+  }
+  
+  .dark .blog-header {
+      background-color: var(--body-background);
+  }
+  
+  .dark .mb-6 {
+      background-color: var(--body-background);
+  }
+  
+  .dark .blog-post-area {
+      background-color: var(--body-background);
+  }
+  
+  .dark .blog-subscription-article-wrapper {
+      background-color: var(--body-background);
+  }
+  
+  .dark .blog-subscription-form-button {
+      color: var(--white);
+  }
+  
+  .blog-subscription-form-button {
+      color: var(--content-highlight-primary);
+  }
+  
+  .dark .blog-footer-area {
+      background-color: #000000 !important;
+  }
+  
+  .blog-subscription-form-input:focus {
+      border: 1px solid var(--content-highlight-primary);
+  }
+  
+  .dark .blog-subscription-form-input {
+      background-color: var(--body-background);
+  }
+  
+  .dark .blog-subscription-form-input:focus {
+      border: 1px solid var(--content-highlight-primary);
+  }
+  
+  .btn-reaction-spp:hover {
+    animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;  
+  }
+  
+  @keyframes shake {
+    10%, 90% { transform: translate3d(-1px, 0, 0); }
+    20%, 80% { transform: translate3d(2px, 0, 0); }
+    30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+    40%, 60% { transform: translate3d(4px, 0, 0); }
+  }
+  
+  .dark .prose pre { color: #373737; background-color: #000000; }
+  .dark .prose code {
+      --tw-bg-opacity: 1;
+      background-color: #000000;
+      --tw-text-opacity: 1;
+      color: rgba(238,238,238,var(--tw-text-opacity)));
+  }
+  
+  .dark .button-primary {
+      color: var(--white);
+      border: 1px solid var(--white);
+  }
